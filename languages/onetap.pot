@@ -1,0 +1,228 @@
+# Copyright (C) 2023 Simple Todo
+# This file is distributed under the same license as the Simple Todo package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Todo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-02 00:46+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../app/Model/DB_Model.php:64, ../app/Model/DB_Model.php:126, ../app/Model/DB_Model.php:167
+msgid "The resource ID is required."
+msgstr ""
+
+#: ../app/Model/DB_Model.php:75
+msgid "Could not find the resource."
+msgstr ""
+
+#: ../app/Model/DB_Model.php:109
+msgid "Could not create the resource."
+msgstr ""
+
+#: ../app/Model/DB_Model.php:136
+msgid "The resource not found."
+msgstr ""
+
+#: ../app/Model/DB_Model.php:150
+msgid "Could not update the resource."
+msgstr ""
+
+#: ../app/Model/DB_Model.php:177
+msgid "Could not delete the resource."
+msgstr ""
+
+#: ../app/Module/Core/Admin/Admin_Menu.php:14, ../app/Module/Core/Admin/Admin_Menu.php:14
+msgid "oneTap"
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Base.php:52
+msgid "Operation Successful"
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Base.php:52
+msgid "Operation Failed"
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:38
+msgid "New user email address."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:42
+msgid "New user username."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:47
+msgid "New user password."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:58, ../app/Module/Core/Rest_API/Version_1/Users.php:721
+msgid "Unique identifier for the resource."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:84
+msgid "Required to be true, as resource does not support trashing."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:89
+msgid "ID to reassign posts to."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:197
+msgid "Cannot create existing resource."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:294, ../app/Module/Core/Rest_API/Version_1/Users.php:314
+msgid "Invalid resource ID."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:318
+msgid "Email address is invalid."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:322
+msgid "Username isn't editable."
+msgstr ""
+
+#. translators: %s: force=true
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:381
+msgid "Users do not support trashing. Set '%s' to delete."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:388
+msgid "Invalid resource id."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:393
+msgid "Invalid resource id for reassignment."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:408
+msgid "The resource cannot be deleted."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:602
+msgid "Sorry, you cannot list resources."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:621
+msgid "Sorry, you are not allowed to create resources."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:640
+msgid "Sorry, you cannot view this resource."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:659
+msgid "Sorry, you are not allowed to edit this resource."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:678
+msgid "Sorry, you are not allowed to delete this resource."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:700
+msgid "Resource does not exist."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:727
+msgid "The date the user was created, as GMT."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:734
+msgid "The display name for the user."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:739
+msgid "User login name."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:747
+msgid "The nickname for the user."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:752
+msgid "User first name."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:760
+msgid "User last name."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:768
+msgid "Description of the user."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:773
+msgid "The email address for the user."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:779
+msgid "User password."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:784
+msgid "User avater image data."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:789
+msgid "Image ID."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:794
+msgid "The date the image was created, in the site's timezone."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:800
+msgid "The date the image was created, as GMT."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:806
+msgid "The date the image was last modified, in the site's timezone."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:812
+msgid "The date the image was last modified, as GMT."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:818
+msgid "Image URL."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:853
+msgid "Ensure result set excludes specific IDs."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:862
+msgid "Limit result set to specific IDs."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:871
+msgid "Offset the result set by a specific number of items."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:878
+msgid "Order sort attribute ascending or descending."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:886
+msgid "Sort collection by object attribute."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:893
+msgid "Limit result set to resources with a specific email."
+msgstr ""
+
+#: ../app/Module/Core/Rest_API/Version_1/Users.php:899
+msgid "Limit result set to resources with a specific role."
+msgstr ""
+
+#: ../app.php:70, ../app.php:79
+msgid "Cheatin&#8217; huh?"
+msgstr ""
